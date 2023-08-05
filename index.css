@@ -3,6 +3,9 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
 
 body{
     font-family: 'Roboto', sans-serif;
@@ -34,6 +37,11 @@ button:hover{
 .container{
    max-width: 1200px;
    margin: auto; 
+}
+
+.color-acento{
+    color: blueviolet;
+
 }
 
 header{
@@ -93,3 +101,121 @@ header a:hover{
 #hero h1{
     color: white;
 }
+
+#hero button{
+  font-size: 1.5em;  
+}
+
+
+#somos-proya .container{
+    text-align: center;
+    padding: 100px 12px;
+
+}
+
+#nuestros-programas{
+    background-color: rgb(30, 30, 30);
+    color: white;
+    text-align: center;
+}
+
+#nuestros-programas .container{
+    padding: 50px 12px;
+ }
+
+ #nuestros-programas h2{
+    margin-top: 0;
+    font-size: 3em;
+ }
+
+ #nuestros-programas p{
+    display: none;
+ }
+
+ #nuestros-programas .carta{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px;
+    margin: 20px;
+    border-radius:20px;
+
+ }
+
+ .carta:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+
+    )
+    ,url("media/front-end.jpg");
+ }
+
+ .carta:nth-child(2){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+
+    )
+    ,url("media/full-stack.jpg");
+ }
+
+ .carta:nth-child(3){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+
+    )
+    ,url("media/phyton2.jpg");
+ }
+
+ #caracteristicas .container{
+    text-align: center;
+    padding: 200px 12px;
+ }
+ 
+ #caracteristicas li{
+    margin: 12px 0px;
+    font-weight: bold;
+ }
+
+ #final{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 80vh;
+    text-align: center;
+    background-color: rgb(30, 30, 30);
+    color: white;
+    ;
+ }
+
+ #final h2{
+    font-size: 9vw;
+ }
+
+ #final{
+    font-size: 5vw;
+ }
+
+ footer{
+    background-color: rgb(230,230,230);
+ }
+
+ footer p{
+    margin: 0;
+    padding: 12px;
+    color: rgb(100, 100, 100);
+ }
+
+ footer .container{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+ }
+
+
