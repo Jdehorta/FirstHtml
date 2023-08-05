@@ -1,4 +1,5 @@
-.{
+*{
+
     box-sizing: border-box;
 }
 
@@ -28,4 +29,9 @@ button{
 
 button:hover{
     background-color: rgb(101,33,165);
+}
+
+.container{
+   max-width: 1400px;
+   margin: auto; 
 }
